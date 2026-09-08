@@ -11,8 +11,8 @@ sanctioned_entities:
       - "ShadowNet Holdings"
     entity_type: "ORGANIZATION"
     sanction_program: "CYBER2-2024"
-    high_risk_countries: ["RU", "BY"]
-    linked_ip_prefixes: ["203.0.113.", "198.51.100."]
+    high_risk_countries: ["RU", "BY", "SG"]
+    linked_ip_prefixes: ["213.238.", "203.0.113.", "198.51.100."]
 
   - entity_id: "SANC-102"
     name: "Alpha Global Remittance Corp"
@@ -21,8 +21,8 @@ sanctioned_entities:
       - "AGR Financial Ltd"
     entity_type: "FINANCIAL_INSTITUTION"
     sanction_program: "SDNTK-NARCO"
-    high_risk_countries: ["MX", "CO", "PA"]
-    linked_ip_prefixes: ["192.0.2."]
+    high_risk_countries: ["MX", "CO", "PA", "FR"]
+    linked_ip_prefixes: ["39.175.", "192.0.2."]
 
   - entity_id: "SANC-103"
     name: "PetroCasas International"
@@ -30,5 +30,5 @@ sanctioned_entities:
       - "PC Energy Trading"
     entity_type: "STATE_OWNED"
     sanction_program: "VENEZUELA-EO13850"
-    high_risk_countries: ["VE"]
-    linked_ip_prefixes: ["198.18.0."]
+    high_risk_countries: ["VE", "CU", "DE"]
+    linked_ip_prefixes: ["29.178.", "198.18.0."]
